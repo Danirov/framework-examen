@@ -1,0 +1,51 @@
+.cabecera{
+	background: #003333;
+}
+#logo{
+	max-width: 60%;
+	margin-top: 20px;
+
+}
+
+.social{
+
+	margin: 120px 0 0 0;
+	font-family: century;
+}
+
+#menu{
+	background: #003300;
+}
+
+.articulo{
+	font-family: arial;
+	font-size: 100%;
+	
+	
+}
+.img-fluid{
+	max-width: 100%;
+	 height: auto;
+	 margin-top: 10px;
+}
+#foto{
+	float: right;
+}
+#buscador{
+	margin-top: 15px;
+	width: 100%
+	height: 100%;
+	
+}
+body{
+	background: #CC9999
+}
+section{
+	background: #FFFFFF;
+}
+#boton{
+	float: right;
+}
+#foto1{
+	margin-top: 25px;
+}	

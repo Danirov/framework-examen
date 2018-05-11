@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="encoding" charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Daniel Rodríguez Oviedo">
+	<meta name="keywords" content="musica, floklore, tango, cafrune, tormo, cantores populares">
+	<meta name="description" content="Blog sobre musica tradicional Argentina">
+	<meta name="languaje" content="ES">
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='css/estilo.css'>
+	<title>Examen de Framework: Bootstrap</title>
+</head>
+<body>
+	<div class="contenedor-general"> <!--(contenedor general)-->
+
+		<!--(logo de la pagina y redes sociales)-->
+		<header class="container cabecera">
+		<div class="row position-relative-md">
+		<div class="col-lg-3 col-md-6 col-sm-5 col-xs-12 left-column">
+		<img src="imagenes/guitarra-cabecera.png" id="logo" class="img-responsive" >  </div>
+		<div class="col-lg-6 col-md-2 col-sm-2"></div>				
+		<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12  text-center ">
+		<ul class="list-inline social" id="SocialBlock">
+			<a href="https://www.facebook.com"><img class="img-rounded img-social" src="imagenes/fb.png"></a>
+			<a href="https://www.instragrma.com"><img class="img-rounded img-social"  src="imagenes/ig.png"></a>
+			<a href="https://www.twitter.com"><img class="img-rounded img-social"  src="imagenes/tt.png"></a>
+		</ul>
+		</div>				
+		</div>				
+		</header>
+
+        <!--(navbar)-->
+        <div class="container">
+		<div class="row">				
+		<div class="col-lg-12 ">	
+		<nav id="menu" class="navbar" role="navigation">					
+		<ul class="nav nav-pills nav-justified navbar-defaul ">
+			<li id="lista" class="activo"><a href="#"> inicio </a></li>
+			<li id="lista"><a href="#">Artistas </a></li>
+			<li id="lista"> <a href="#"> grupos </a></li>
+			<li id="lista"><a href="#">Top-10   </a></li>
+			<li id="lista"><a href="#">Letras   </a></li>
+			<li id="lista"><a href="#"> Acordes </a></li>
+		</ul>			
+		</nav>				
+		</div>
+		</div>
+		</div>
+
+		<SECTION class="container">
+			<article class="row"> <!--(Una fila dos columnas)-->
+				<div class="col-lg-8 col-sm-7 col-xs-12"> <!--(Columna "A" con tamaño 8. Dentro de esta anide dos filas con 2 columnas de 4)-->
+					<div class="container">
+					<div class="row"> <!--(Una fila dos columnas)-->
+						<div class="col-lg-4 col-sm-3 col-xs-12 col-lg-push-4 col-sm-push-4"> <!--(Segunda columna anidada de "A")-->
+						<img id="foto1"  src="imagenes/Antonio_Tormo.jpg"  class="img-responsive" alt="Responsive image">
+					</div>
+					<div class="col-lg-4 col-sm-4 col-xs-12 col-lg-pull-4 col-sm-pull-3"> <!--(Primer columna anidada de "A")-->
+						<h1 class="text-center">Antonio Tormo</h1>
+						<h4><small> (18 de septiembre de 1913 – 15 de noviembre de 2003).</small></h4>
+				        <p class="text-justify">fue un cantante argentino de música folklórica. En la década de 1930 integró <mark>La Tropilla de Huachi Pampa</mark>, uno de los primeros en tener éxito masivo, donde cantaba a dúo con Diego Canales. Con los Huachi Pampa, a fines de la década de 1930 cantó en El fogón de los arrieros, el primer programa radial de música folklórica de alcance nacional. En 1950 grabó el simple <b>"El rancho 'e la Cambicha"</b> que se convirtió en el mayor éxito de la historia musical de la Argentina, vendiendo 5 millones de unidades. En 1955 fue prohibido por la dictadura militar autodenominada Revolución Libertadora.</p>
+				    <div class="form-group">
+				        <label for="comment"><span class="glyphicon glyphicon-user"></span> ¿Qué le parecio esta nota?:</label>
+				        <textarea class="form-control" rows="5" id="comment"></textarea>
+					    <button id="boton" type="button" class="btn btn-primary">Enviar</button> <!--(el examen no pedía un boton, pero me parecía que hacer la caja de texto o text-area y que no tenga un boton para enviarlo, estaba mal asi que lo hice)-->
+					</div>
+					</div>
+					
+				    </div>
+				    </div>
+				    <br>
+
+				<div class="container"> 
+					<div class="row"> <!--(Segunda  fila dos columnas)-->
+						<div class="col-lg-4 col-sm-3 col-xs-12"> <!--(Primera columna de la segunda fila)-->
+							<img id="foto1" src="imagenes/cafrune.jpg"  class="img-responsive" alt="Responsive image">
+						</div>
+						<div class="col-lg-4 col-sm-4 col-xs-12"> <!--(Segunda columna de la segunda fila)-->
+							<h1 class="text-center">Jorge Cafrune</h1>
+				            <h4 class="text-center"><small> (Perico, provincia de Jujuy, 8 de agosto de 1937 - 1 de febrero de 1978) apodado <em>"El Turco".</em></small> </h4>
+				            <p class="text-justify">A los diecisiete años tuvo su primera guitarra, que aprendió a tocar con músicos locales.En Buenos Aires actúa en<strong>"La Pulpería de Mandinga"</strong> por el <b>Canal 9</b> de televisión, y en radios y teatros.  En 1972 visitó España, país donde residió hasta 1976, presentándose también en otros países europeos.Cuando regresó a su país, planeó un viaje a caballo de Buenos Aires a Yapeyú (Pcia. Corrientes) para conmemorar el bicentenario del nacimiento del general San Martín.A modo de homenaje a José de San Martín, Cafrune emprendió una travesía a caballo para llevar a Yapeyú, lugar de nacimiento del libertador. Cabalgaba por la noche a las afueras de Buenos Aires cuando fue embestido a la altura de Benavídez por una camioneta y falleció el 1 de febrero de 1978 en ciudad de Tigre, partido de Tigre, provincia de Buenos Aires. Siempre se sospechó, que fue la dictadura que gobernaba quien lo asesinó, debido a la militancia política que tenía el turco</p>
+				        <div class="form-group">
+                        <label for="comment"><span class="glyphicon glyphicon-edit coment-icon">
+                        </span>¿qué te pareció la Nota?</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                        <button id="boton"  type="button" class="btn btn-primary">Enviar</button>
+
+                        </div>
+						</div>
+					</div>
+				</div>
+
+			</div>					
+				
+               <div class="col-lg-4 col-sm-5 col-xs-12"> <!--(Columna "B" )-->
+                 	 <form id="buscador" class="form-inline hidden-xs ">
+                     <input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Search">
+                     <button  class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscador</button>
+                     </form>
+                     <br>
+                     <div class="hidden-xs"> <!--(El ejercicio no pedía ocultarlo, pero lo hice porque no me gustaba como se veía en pantallas pequeñas)-->
+                 		<blockquote>Folklore</blockquote>
+                 		<blockquote>Tango</blockquote>
+                 		<blockquote>Chamamé</blockquote>
+                 		<blockquote>Chacarera</blockquote> <!--(utilicé blockquote por una cuestión estetica)-->
+                 	    <blockquote>Triunfo</blockquote>
+                 	    <blockquote>Vals</blockquote>
+                 	    <blockquote>Pericon</blockquote>
+                 	    <blockquote>Cueca</blockquote>
+                 	    <blockquote>Vidala</blockquote>
+                 	    <blockquote>Polka</blockquote>
+                 	    <blockquote>Milonga</blockquote>
+                 	</div>
+
+                 </div>   
+			
+				
+			</article>
+		</SECTION> 
+
+
+
+
+			
+</div>				
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+
+</body>
+</html>
