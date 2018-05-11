@@ -1,0 +1,72 @@
+#fondo {
+  background-image: url("../img/china.jpg");
+}
+.nav-wrapper{
+  background:#ffc400;  
+}
+#nav-mobile{
+  margin-right: 50px
+}
+.barra
+{
+  height: 120px;
+}
+.subtitulo{
+  color: black;  
+  font-family: georgia;
+  font-style: italic;
+}
+#subtitulo{
+  color: black; 
+  margin-top: 4rem;
+  font-family: georgia;
+  font-style: italic;
+  margin-left: 4rem;
+}
+#subtitulo2{
+  color: black; 
+  margin-top: 2rem;
+  font-family: georgia;
+  font-style: italic;
+  margin-left: 4rem;
+}
+.logo{
+	width: 20%;
+	margin-top:0.8rem ; 
+  margin-left: 2rem;
+ 	float: left; 
+}
+#foto{
+  width: 100%;
+  margin-top:0.8rem ; 
+ 
+  float: center; 
+}
+.responsive-img{
+  border: 2rem;
+  border-radius: 5px;
+  
+}
+
+#contenedor_vertical{
+  height: 500px;
+  padding-bottom: 5rem;
+}
+
+#dani{
+  width:100%;
+  height: auto;
+   border: 2rem;
+   border-radius: 5px;
+ 
+}
+.bio{
+  margin-top: 2rem;
+}
+#boton{
+  float: right;
+}
+#fondo2{
+  background:#ffc400; 
+
+}
