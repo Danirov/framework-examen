@@ -1,0 +1,20 @@
+h4{
+	padding: 2px;
+	font-style: italic;
+}
+header{
+	background-image: url("../imagenes/brasasfuego.jpg");
+
+}
+.cabeza{
+	border-right: 1px solid white;
+}
+#titulo {
+	color: white;
+}
+#subtitulo{
+	color: white;
+}
+#enviar{
+	float: right;
+}
